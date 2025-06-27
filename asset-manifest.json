@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/helloworld/static/css/main.218ba8cb.css",
+    "main.js": "/helloworld/static/js/main.d85adbbe.js",
+    "static/js/453.0f4d6c6d.chunk.js": "/helloworld/static/js/453.0f4d6c6d.chunk.js",
+    "static/media/Kanave Kanave.mp3": "/helloworld/static/media/Kanave Kanave.d7fd049b4e9a64f717de.mp3",
+    "static/media/Naan-Pizhaippeno.mp3": "/helloworld/static/media/Naan-Pizhaippeno.9a1029fd72c226ba7b7d.mp3",
+    "static/media/Aaruyire.mp3": "/helloworld/static/media/Aaruyire.5a89e2f3f79ba0ca2926.mp3",
+    "static/media/Anbe-En-Anbe.mp3": "/helloworld/static/media/Anbe-En-Anbe.f3824307af68a2722d52.mp3",
+    "static/media/Sirukki-Vaasam.mp3": "/helloworld/static/media/Sirukki-Vaasam.d2e0a100be7c9db980a7.mp3",
+    "static/media/Bodhai-Kaname.mp3": "/helloworld/static/media/Bodhai-Kaname.db9c9365e49484cd5052.mp3",
+    "static/media/Otha-Sollaala.mp3": "/helloworld/static/media/Otha-Sollaala.f423116ee1bbf90d9672.mp3",
+    "static/media/Poi-Vazhva.mp3": "/helloworld/static/media/Poi-Vazhva.43714c0a704d3229aa7b.mp3",
+    "static/media/oh-manapennae.png": "/helloworld/static/media/oh-manapennae.8403e5fb71d143c8e7dc.png",
+    "static/media/kodi.png": "/helloworld/static/media/kodi.8f04216858edd32e75a7.png",
+    "static/media/david.png": "/helloworld/static/media/david.e15ab90c3dbddfcbb614.png",
+    "static/media/guru.png": "/helloworld/static/media/guru.8bab8b17eb8111052541.png",
+    "static/media/enpt.jpeg": "/helloworld/static/media/enpt.f90e19c80377626d3ce1.jpeg",
+    "static/media/manithan.png": "/helloworld/static/media/manithan.02485dda9fe1fd7ec46a.png",
+    "static/media/dhaam_dhoom.png": "/helloworld/static/media/dhaam_dhoom.f784f1800400c0b69219.png",
+    "static/media/yuvan.jpg": "/helloworld/static/media/yuvan.b9ed81c861a9abff9497.jpg",
+    "static/media/10s-romance-tamil.jpg": "/helloworld/static/media/10s-romance-tamil.4a7ae8e1770b7af4ddb7.jpg",
+    "static/media/romantic-anirudh.jpg": "/helloworld/static/media/romantic-anirudh.c6225879b0d1fd8f01a9.jpg",
+    "static/media/aadukalam.webp": "/helloworld/static/media/aadukalam.e4f26c206199e2e773da.webp",
+    "static/media/kolly-chill-out.jpg": "/helloworld/static/media/kolly-chill-out.9e22a81c2a410f83252e.jpg",
+    "static/media/purely-kaadhal.jpg": "/helloworld/static/media/purely-kaadhal.f5058c57db8af6cbb9e5.jpg",
+    "static/media/arr-mix.jpg": "/helloworld/static/media/arr-mix.7570f4f768f8f44e77ed.jpg",
+    "static/media/munpani-kaadhal.jpg": "/helloworld/static/media/munpani-kaadhal.839611158c0999652a86.jpg",
+    "static/media/hip-hop-radio.jpg": "/helloworld/static/media/hip-hop-radio.bb7e319b3d244994aded.jpg",
+    "index.html": "/helloworld/index.html",
+    "main.218ba8cb.css.map": "/helloworld/static/css/main.218ba8cb.css.map",
+    "main.d85adbbe.js.map": "/helloworld/static/js/main.d85adbbe.js.map",
+    "453.0f4d6c6d.chunk.js.map": "/helloworld/static/js/453.0f4d6c6d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.218ba8cb.css",
+    "static/js/main.d85adbbe.js"
+  ]
+}
