@@ -1,4 +1,5 @@
 import './App.css';
+import React, { useState } from 'react';
 import { assets } from './assets/assets.js';
 import { songsData } from './assets/assets.js'; 
 const Spotifyimage = () => {
@@ -59,9 +60,9 @@ const Like = () => {
     </div>
   );
 }
-const SongCard = ({ image, name, desc}) => {
+const SongCard = ({ image, name, desc,onClick}) => {
   return (
-  <div className="song-card">
+  <div className="song-card" onClick={onClick}>
       <img src={image} alt={name} className="song-image" />
       <div className="song-info">
         <h4>{name}</h4>
@@ -72,8 +73,19 @@ const SongCard = ({ image, name, desc}) => {
 }
 
 const Myapp = () => {
+  const [selectedSong, setSelectedSongs] = useState(null);
+
+  const handleCardClick = (song) => {
+    setSelectedSongs(song);
+  };
+  const handleClose = () => {
+    setSelectedSongs(null);
+  };
+
   return (
-    <div className="flex-container">
+    <>
+    <div className={`flex-container ${selectedSong ? "blurred" : ""}`}>
+    
       <div className="box1">
          <Spotifyimage/> 
          <Home/>
@@ -94,11 +106,26 @@ const Myapp = () => {
         image={song.image}
         name={song.name}
         desc={song.desc}
+        onClick={() => handleCardClick(song)}
       />
     ))}
         </div>
       </div>
     </div>
+      {selectedSong && (
+        <div className="overlay">
+          <div className="overlay-card">
+            <img src={selectedSong.image} alt={selectedSong.name} className="song-image" />
+            <div className="song-info">
+              <h4>{selectedSong.name}</h4>
+              <p>{selectedSong.desc}</p>
+              <audio src={selectedSong.file} controls autoPlay />
+              <button className="close-button" onClick={handleClose}>×</button>
+            </div>
+          </div>
+        </div>
+      )}
+    </>
   );
 }
 export default Myapp;
